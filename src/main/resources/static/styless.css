@@ -1,0 +1,11 @@
+.list-group-item {
+    position: relative;
+    padding-left: 30px;
+}
+.list-group-item::before {
+    content: '•';
+    position: absolute;
+    left: 5px;
+    color: #007bff;
+    font-size: 1.2em;
+}
